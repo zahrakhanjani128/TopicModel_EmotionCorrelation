@@ -1,15 +1,15 @@
 ## TOPIC MODELING AND EMOTION CORRELATION FROM CONVERSATIONS
 ### Project By - Sara Khanjani & Shreepriya Dogra, UMBC
-### Project Aadvisor - Dr. Karen Chen, UMBC
+### Project Advisor - Dr. Karen Chen, UMBC
 
 ### ABSTRACT
 - Transcripts of Customer Calls can be processed and analyzed using state-of-the-art NLP models to get meaningful insights. 
 - Some of the insights that can be drawn are about the Crucial Topics or Areas of Concern, Emotions associated with the conversation depicting Satisfaction Level of Customer and Correlation with other available data like the Speakers, Length of call, etc. 
 - Our aim in the first phase of the project is to find the main topics of conversation and also if these topics are correlated with certain emotions. 
-- We used some Python based preprocesing to get the data into a format that was useful to the analysis. 
+- We used some Python-based preprocessing to get the data into a format that was useful to the analysis. 
 - We tried some basic topic modelling to get a feel of the topic words generated. 
-- We simplied the problem into a simple Binary Classification task to understand if the predominant could be predicted using the words in the text as features.
-- Random Forest was used for analysis which did not perform well for the current dataaset due to it's small size and possible noise. 
+- We simplified the problem into a simple Binary Classification task to understand if the predominant could be predicted using the words in the text as features.
+- Random Forest was used for analysis which did not perform well for the current dataset due to its small size and possible noise. 
 
 A small video describing the work is below - 
 
@@ -29,7 +29,7 @@ A small video describing the work is below -
 ### DATASET & EXPLORATORY DATA ANALYSIS
 
 Dataset has been taken from https://sail.usc.edu/iemocap/. 
-It has the following main characterictics - 
+It has the following main characteristics - 
 - Conversational
 - Provided with Emotion Labels
 - Open Dataset
@@ -38,7 +38,7 @@ Reference -
 Interactive Emotional Dyadic Motion Capture (IEMOCAP)
 C. Busso, M. Bulut, C.C. Lee, A. Kazemzadeh, E. Mower, S. Kim, J.N. Chang, S. Lee, and S.S. Narayanan, "IEMOCAP: Interactive emotional dyadic motion capture database," Journal of Language Resources and Evaluation, vol. 42, no. 4, pp. 335-359, December 2008. 
 
-The raw datas features can be seen below.
+The raw data features can be seen below.
 
 <img width="799" alt="RawDataset" src="https://user-images.githubusercontent.com/1511050/147159575-b11797f9-0779-4876-8571-ba5f616b99a8.png">
 
@@ -46,7 +46,7 @@ The final dataset features can be seen below.
 
 <img width="788" alt="FinalDataset" src="https://user-images.githubusercontent.com/1511050/147159590-6e6d8441-f7ed-4b6d-87ab-a7071e7eeeb4.png">
 
-Initial dataset has a lot of unnecessary words, which are shown below.
+The initial dataset has a lot of unnecessary words, which are shown below.
 
 <img width="847" alt="Exploratory Data" src="https://user-images.githubusercontent.com/1511050/147159988-c7441960-99ca-4b98-a0c5-f4318bf463e2.png">
 
@@ -58,7 +58,7 @@ Initial dataset has a lot of unnecessary words, which are shown below.
    - Stop Words 
 3. Tokenization - Breaking down text data into smaller units
 
-Repeat of visualization of top words show that more meaningful words are now showing up.
+A repeat of visualization of top words shows that more meaningful words are now showing up.
 
 <img width="787" alt="PreProcesed" src="https://user-images.githubusercontent.com/1511050/147160401-54d135e6-c2a9-4371-92fe-c30139bee789.png">
 
@@ -84,11 +84,11 @@ Sample visualization of the topic words has been presented. A visual inspection 
 
 #### 2. EMOTION PREDICTION USING TFIDF FEATURES
 
-- In this method feature extraction is done by the TFIDF Vectorizer. This step maps words to a corresponding vector of real numbers. The number of features extracted initially were 3218. 
-- After this feature reduction using Principal Component Analysis (PCA) was done. PCA is a linear dimensionality reduction method. After this step the number of final features were reducced to 91, keeping the variance in data 95%.
+- In this method feature extraction is done by the TFIDF Vectorizer. This step maps words to a corresponding vector of real numbers. The number of features extracted initially was 3218. 
+- After this feature reduction using Principal Component Analysis (PCA) was done. PCA is a linear dimensionality reduction method. After this step the number of final features was reduced to 91, keeping the variance in data 95%.
 - INPUT - 91 features 
 - OUTPUT - Emotion Label - 0/1 representing Negative/Positive respectively
-- Next we perform a Binary Classification using Random Forest. Random Forest with different depths will be tried to avoid overfitting.
+- Next, we perform a Binary Classification using Random Forest. Random Forest with different depths will be tried to avoid overfitting.
 
 
 <img width="682" alt="Screenshot 2021-12-22 at 4 46 25 PM" src="https://user-images.githubusercontent.com/1511050/147163531-88e04f84-c7f4-4fc9-9be3-2b65336e4309.png">
