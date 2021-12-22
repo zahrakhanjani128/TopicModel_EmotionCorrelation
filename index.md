@@ -1,5 +1,5 @@
 ## TOPIC MODELING AND EMOTION CORRELATION FROM CONVERSATIONS
-## Sara Khanjani & Shreepriya Dogra
+### Sara Khanjani & Shreepriya Dogra
 
 
 
