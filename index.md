@@ -1,3 +1,5 @@
+# TOPIC MODELING AND EMOTION CORRELATION FROM CONVERSATIONS
+
 #### Data Mining Course Project
 #### Project By - Sara Khanjani & Shreepriya Dogra, UMBC 
 #### Project Advisor - Dr. Karen Chen, UMBC
