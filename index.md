@@ -54,6 +54,8 @@ Initial dataset has a lot of unnecessary words, which are shown below.
    - Stop Words 
 3. Tokenization - Breaking down text data into smaller units
 
+Repeat of visualization of top words show that more meaningful words are now showing up.
+<img width="787" alt="PreProcesed" src="https://user-images.githubusercontent.com/1511050/147160401-54d135e6-c2a9-4371-92fe-c30139bee789.png">
 
 ### MODEL DEVELOPMENT
 describe the pipeline from raw data to processed data to model development
