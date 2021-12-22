@@ -1,35 +1,36 @@
 ## TOPIC MODELING AND EMOTION CORRELATION FROM CONVERSATIONS
-### Sara Khanjani & Shreepriya Dogra
+Sara Khanjani & Shreepriya Dogra
 
 
 
-### Abstract 
+### ABSTRACT
 
 (a few sentences describing the project including the motivation and key findings)
-### Background/motivation
+
+### MOTIVATION
 Why this project is interesting
 
-### Exploratory data analysis 
+### DATASET & EXPLORATORY DATA ANALYSIS
 A few interesting findings
 
-### Model development 
+### MODEL DEVELOPMENT
 describe the pipeline from raw data to processed data to model development
 Flowchart helps
 
-### Result and Insights  
+### RESULTS & INSIGHTS 
 Present a few results
 Make sure you interpret it correctly 
 
-### Conclusion
+### CONCLUSION
 It should flow naturally from the result
 
-### Future work
+### FUTURE WORK
 What do you think the next should be
 
-### Team reflection (if applicable)
+### TEAM REFLECTION
 What you learned from this project, what lesson learned, what could be improved etc.
 
-### Reference (if any)
+### REFERENCES
 Paper, tools, external help resources
 
 
