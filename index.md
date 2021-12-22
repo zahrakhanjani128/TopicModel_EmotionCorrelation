@@ -4,7 +4,7 @@
 #### Project By - Sara Khanjani & Shreepriya Dogra, UMBC 
 #### Project Advisor - Dr. Karen Chen, UMBC
 
-# ABSTRACT
+# I. ABSTRACT
 - Transcripts of Customer Calls can be processed and analyzed using state-of-the-art NLP models to get meaningful insights. 
 - Some of the insights that can be drawn are about the Crucial Topics or Areas of Concern, Emotions associated with the conversation depicting Satisfaction Level of Customer and Correlation with other available data like the Speakers, Length of call, etc. 
 - Our aim in the first phase of the project is to find the main topics of conversation and also if these topics are correlated with certain emotions. 
@@ -18,7 +18,7 @@ A small video describing the work is below -
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H7xcnrfm9oU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-# MOTIVATION
+# II. MOTIVATION
 
  - Transcripts of conversations Customer Calls can be processed and analyzed using state-of-the-art NLP models
 
@@ -28,7 +28,7 @@ A small video describing the work is below -
   - Correlation with other available data - Speakers 
 
 
-# DATASET & EXPLORATORY DATA ANALYSIS
+# III. DATASET & EXPLORATORY DATA ANALYSIS
 
 Dataset has been taken from https://sail.usc.edu/iemocap/. 
 It has the following main characteristics - 
@@ -64,7 +64,7 @@ A repeat of visualization of top words shows that more meaningful words are now 
 
 <img width="787" alt="PreProcesed" src="https://user-images.githubusercontent.com/1511050/147160401-54d135e6-c2a9-4371-92fe-c30139bee789.png">
 
-# MODEL DEVELOPMENT
+# IV. MODEL DEVELOPMENT
 The model has two major parts - 
 - Unsupervised 
 - Supervised
@@ -106,7 +106,7 @@ Sample visualization of the topic words has been presented. A visual inspection 
 <img width="789" alt="Screenshot 2021-12-22 at 4 43 15 PM" src="https://user-images.githubusercontent.com/1511050/147163267-2ae6c12d-9b39-43f8-a5e8-0752231b4848.png">
 
 
-# RESULTS
+# V. RESULTS
 The results have been divided into two parts. 
 
 ### EMOTION PREDICTION USING TFIDF FEATURES
@@ -118,21 +118,21 @@ The results have been divided into two parts.
 <img width="341" alt="Screenshot 2021-12-22 at 4 25 38 PM" src="https://user-images.githubusercontent.com/1511050/147161957-47ce2e16-3aac-42ce-9fcd-f409bab56bf1.png">
 
 
-# CONCLUSION
+# VI. CONCLUSION
 - Both models do not perform well.
 - Random Forest on TFIDF Features is overfitting.
 - Random Forest on LDA Features give more realistic results, but not the best model.
 - New models need to tried to get an appropriate model for our dataset and problem statement.
 
 
-# FUTURE WORK
+# VII. FUTURE WORK
 - Create/get access to relevant datasets as the current dataset is very small for our analysis.
 - Create profiles and ratings for customer service executives based on duration of call & customer experience. The speakers can be identified as a customer or customer service executive. Customer experience can be judged by the change in emotions and the final emotion at the end of the call. 
 - Analyse duration of calls and experience (change of emotions) of customers to identify if there is a cut-off time after which executives are not able to resolve customer problems.
 - Analyse duration & frequency of calls and link it with the associated topics.
 
-# TEAM REFLECTION
+# VIII. TEAM REFLECTION
 The project has been no less than an adventure. Our top learnings and reflections are enumerated here. First and foremost, finding an appropriate dataset is crucial for the analysis. Secondly, conversion of the raw data into a ready to use dataset is a big task. Spend a lot of time on EDA. Lastly, try several different models. Real-life data may be noisy and may not give the expected results in one go.
 
-# ACKNOWLEDGMENTS
+# IX. ACKNOWLEDGMENTS
 We would like to thank Dr. Karen Chen for her constant support, advice and feedback. We would also like to thank Dr. Vandana Janeja for suggesting the problem statement. Last but not the least, we would like to thank the IEMOCAP team for providing us the dataset to us, very promptly. 
