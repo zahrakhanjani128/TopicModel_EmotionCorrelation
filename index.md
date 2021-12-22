@@ -70,4 +70,4 @@ Make sure you interpret it correctly
 ### ACKNOWLEDGMENTS
 - We would like to thank Dr. Karen Chen for her constant support, advice and feedback.
 - We would like to thank Dr. Vandana Janeja for the problem statement.
-- We Would like to thank the IEMOCAP team for providing us the dataset.
+- We would like to thank the IEMOCAP team for providing us the dataset.
