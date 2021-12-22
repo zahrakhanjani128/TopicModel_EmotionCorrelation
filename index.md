@@ -71,6 +71,8 @@ The model has two major parts -
 - Each Topic has Topic words associated with it.
 
 Sample visualization of the topic words has been presented. A visual inspection shows that the words look similar.
+
+
 <img width="307" alt="Screenshot 2021-12-22 at 4 19 57 PM" src="https://user-images.githubusercontent.com/1511050/147161538-ce1b44d3-bd16-4e54-8ea6-59a8c2c03820.png">
 <img width="304" alt="Screenshot 2021-12-22 at 4 19 50 PM" src="https://user-images.githubusercontent.com/1511050/147161545-54df4fce-d7bd-4fca-8052-9dcf9e0f59ab.png">
 <img width="296" alt="Screenshot 2021-12-22 at 4 19 39 PM" src="https://user-images.githubusercontent.com/1511050/147161554-295dd5cd-e5c0-45a4-8ba5-89fb2d0e4f0f.png">
@@ -92,6 +94,9 @@ Random Forest with different depths have been tried
 Results for depth = 3 shown
 
 
+<img width="796" alt="Screenshot 2021-12-22 at 4 39 37 PM" src="https://user-images.githubusercontent.com/1511050/147163004-5d4b5006-5150-4296-8cbe-25db35e051ef.png">
+
+
 
 #### 3. EMOTION PREDICTION USING LDA FEATURES
 Tokenization of Text
@@ -102,10 +107,12 @@ INPUT - 144 features
 OUTPUT - Emotion Label - 0/1 representing Negative/Positive respectively
 Binary Classification using Random Forest
 
+<img width="789" alt="Screenshot 2021-12-22 at 4 43 15 PM" src="https://user-images.githubusercontent.com/1511050/147163267-2ae6c12d-9b39-43f8-a5e8-0752231b4848.png">
 
 
 ### RESULTS
 The results have been divided into two parts. 
+
 #### EMOTION PREDICTION USING TFIDF FEATURES
 <img width="356" alt="Screenshot 2021-12-22 at 4 23 59 PM" src="https://user-images.githubusercontent.com/1511050/147161816-c6887b05-3089-49dc-a507-c6471d00d23e.png">
 
