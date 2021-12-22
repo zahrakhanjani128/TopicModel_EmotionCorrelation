@@ -59,17 +59,61 @@ Repeat of visualization of top words show that more meaningful words are now sho
 <img width="787" alt="PreProcesed" src="https://user-images.githubusercontent.com/1511050/147160401-54d135e6-c2a9-4371-92fe-c30139bee789.png">
 
 ### MODEL DEVELOPMENT
-The model has two major parts
+The model has two major parts - 
 - Unsupervised 
 - Supervised
 
 #### OBJECTIVES - METHODS - MODELS
 <img width="839" alt="Screenshot 2021-12-22 at 4 08 35 PM" src="https://user-images.githubusercontent.com/1511050/147160664-23d47ba9-3308-42ef-8834-23d136d41440.png">
 
+#### 1. TOPIC MODELLING
+- Topic Modelling gave us 9 Topics.
+- Each Topic has Topic words associated with it.
 
-### RESULTS & INSIGHTS 
-Present a few results
-Make sure you interpret it correctly 
+Sample visualization of the topic words has been presented. A visual inspection shows that the words look similar.
+<img width="307" alt="Screenshot 2021-12-22 at 4 19 57 PM" src="https://user-images.githubusercontent.com/1511050/147161538-ce1b44d3-bd16-4e54-8ea6-59a8c2c03820.png">
+<img width="304" alt="Screenshot 2021-12-22 at 4 19 50 PM" src="https://user-images.githubusercontent.com/1511050/147161545-54df4fce-d7bd-4fca-8052-9dcf9e0f59ab.png">
+<img width="296" alt="Screenshot 2021-12-22 at 4 19 39 PM" src="https://user-images.githubusercontent.com/1511050/147161554-295dd5cd-e5c0-45a4-8ba5-89fb2d0e4f0f.png">
+
+#### 2. EMOTION PREDICTION USING TFIDF FEATURES
+
+Feature extraction - TFIDF Vectorizer
+Map words to a corresponding vector of real numbers
+Number of features extracted - 3218
+Feature Reduction - PCA 
+Linear dimensionality reduction
+Number of final features - 91
+Variance in data - 95%
+INPUT - 91 features 
+
+OUTPUT - Emotion Label - 0/1 representing Negative/Positive respectively
+Binary Classification using Random Forest
+Random Forest with different depths have been tried
+Results for depth = 3 shown
+
+
+
+#### 3. EMOTION PREDICTION USING LDA FEATURES
+Tokenization of Text
+Use of Gensim 
+Creation of Bag-of-words, dictionary and corpus
+LDA Features - 144
+INPUT - 144 features 
+OUTPUT - Emotion Label - 0/1 representing Negative/Positive respectively
+Binary Classification using Random Forest
+
+
+
+### RESULTS
+The results have been divided into two parts. 
+#### EMOTION PREDICTION USING TFIDF FEATURES
+<img width="356" alt="Screenshot 2021-12-22 at 4 23 59 PM" src="https://user-images.githubusercontent.com/1511050/147161816-c6887b05-3089-49dc-a507-c6471d00d23e.png">
+
+
+
+#### EMOTION PREDICTION USING LDA FEATURES
+<img width="341" alt="Screenshot 2021-12-22 at 4 25 38 PM" src="https://user-images.githubusercontent.com/1511050/147161957-47ce2e16-3aac-42ce-9fcd-f409bab56bf1.png">
+
 
 ### CONCLUSION
 - Both models do not perform well.
