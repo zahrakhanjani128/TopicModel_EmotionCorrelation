@@ -1,5 +1,5 @@
 ## TOPIC MODELING AND EMOTION CORRELATION FROM CONVERSATIONS
-Sara Khanjani & Shreepriya Dogra
+### Project By - Sara Khanjani & Shreepriya Dogra, UMBC
 
 ### ABSTRACT
 Transcripts of Customer Calls can be processed and analyzed using state-of-the-art NLP models to get meaningful insights. Some of the insights that can be drawn are about the Crucial Topics or Areas of Concern, Emotions associated with the conversation depicting Satisfaction Level of Customer and Correlation with other available data like the Speakers, Length of call, etc. Our aim in the first phase of the project is to find the main topics of conversation and also if these topics are correlated with certain emotions. We used some Python based preprocesing to get the data into a format that was useful to the analysis. We tried some basic topic modelling to get a feel of the topic words generated. We simplied the problem into a simple Binary Classification task to understand if the predominant could be predicted using the words in the text as features. Random Forest was used for anaalysis which did not perform well for the current dataaset due to it's small size and possible noise. 
