@@ -2,23 +2,27 @@
 ### Project By - Sara Khanjani & Shreepriya Dogra, UMBC
 
 ### ABSTRACT
-Transcripts of Customer Calls can be processed and analyzed using state-of-the-art NLP models to get meaningful insights. Some of the insights that can be drawn are about the Crucial Topics or Areas of Concern, Emotions associated with the conversation depicting Satisfaction Level of Customer and Correlation with other available data like the Speakers, Length of call, etc. Our aim in the first phase of the project is to find the main topics of conversation and also if these topics are correlated with certain emotions. We used some Python based preprocesing to get the data into a format that was useful to the analysis. We tried some basic topic modelling to get a feel of the topic words generated. We simplied the problem into a simple Binary Classification task to understand if the predominant could be predicted using the words in the text as features. Random Forest was used for anaalysis which did not perform well for the current dataaset due to it's small size and possible noise. 
+- Transcripts of Customer Calls can be processed and analyzed using state-of-the-art NLP models to get meaningful insights. 
+- Some of the insights that can be drawn are about the Crucial Topics or Areas of Concern, Emotions associated with the conversation depicting Satisfaction Level of Customer and Correlation with other available data like the Speakers, Length of call, etc. 
+- Our aim in the first phase of the project is to find the main topics of conversation and also if these topics are correlated with certain emotions. 
+- We used some Python based preprocesing to get the data into a format that was useful to the analysis. 
+- We tried some basic topic modelling to get a feel of the topic words generated. 
+- We simplied the problem into a simple Binary Classification task to understand if the predominant could be predicted using the words in the text as features.
+- Random Forest was used for analysis which did not perform well for the current dataaset due to it's small size and possible noise. 
 
+A small video describing the work is below - 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H7xcnrfm9oU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-
-(a few sentences describing the project including the motivation and key findings)
-
 ### MOTIVATION
 
-Transcripts of conversations Customer Calls can be processed and analyzed using state-of-the-art NLP models
+ - Transcripts of conversations Customer Calls can be processed and analyzed using state-of-the-art NLP models
 
-Key Performance Indicators - 
-Crucial Topics - Areas of Concern 
-Emotions - Satisfaction Level of Customer
-Correlation with other available data - Speakers 
+- Key Performance Indicators - 
+  - Crucial Topics - Areas of Concern 
+  - Emotions - Satisfaction Level of Customer
+  - Correlation with other available data - Speakers 
 
 
 ### DATASET & EXPLORATORY DATA ANALYSIS
