@@ -37,7 +37,11 @@ Reference -
 Interactive Emotional Dyadic Motion Capture (IEMOCAP)
 C. Busso, M. Bulut, C.C. Lee, A. Kazemzadeh, E. Mower, S. Kim, J.N. Chang, S. Lee, and S.S. Narayanan, "IEMOCAP: Interactive emotional dyadic motion capture database," Journal of Language Resources and Evaluation, vol. 42, no. 4, pp. 335-359, December 2008. 
 
+The raw datas features can be seen below.
+<img width="799" alt="RawDataset" src="https://user-images.githubusercontent.com/1511050/147159575-b11797f9-0779-4876-8571-ba5f616b99a8.png">
 
+The final dataset features can be seen below.
+<img width="788" alt="FinalDataset" src="https://user-images.githubusercontent.com/1511050/147159590-6e6d8441-f7ed-4b6d-87ab-a7071e7eeeb4.png">
 
 
 ### MODEL DEVELOPMENT
