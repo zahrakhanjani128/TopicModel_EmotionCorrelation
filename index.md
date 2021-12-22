@@ -1,5 +1,5 @@
 ## TOPIC MODELING AND EMOTION CORRELATION FROM CONVERSATIONS
-### Sara Khanjani & Shreepriya Dogra
+## Sara Khanjani & Shreepriya Dogra
 
 You can use the [editor on GitHub](https://github.com/shreepriyadogra/TopicModel_EmotionCorrelation/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
