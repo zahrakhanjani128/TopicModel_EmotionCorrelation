@@ -129,12 +129,7 @@ The results have been divided into two parts.
 - Analyse duration & frequency of calls and link it with the associated topics.
 
 ### TEAM REFLECTION
-- Finding an appropriate dataset is crucial for the analysis.
-- Conversion of the raw data into a ready to use dataset is a big task.
-- Spend a lot of time on EDA.
-- Try several different models. Real-life data may be noisy and may not give the expected results in one go.
+The project has been no less than an adventure. Our top learnings and reflections are enumerated here. First and foremost, finding an appropriate dataset is crucial for the analysis. Secondly, conversion of the raw data into a ready to use dataset is a big task. Spend a lot of time on EDA. Lastly, try several different models. Real-life data may be noisy and may not give the expected results in one go.
 
 ### ACKNOWLEDGMENTS
-- We would like to thank Dr. Karen Chen for her constant support, advice and feedback.
-- We would like to thank Dr. Vandana Janeja for the problem statement.
-- We would like to thank the IEMOCAP team for providing us the dataset.
+We would like to thank Dr. Karen Chen for her constant support, advice and feedback. We would also like to thank Dr. Vandana Janeja for suggesting the problem statement. Last but not the least, we would like to thank the IEMOCAP team for providing us the dataset to us, very promptly. 
