@@ -1,5 +1,6 @@
 ## TOPIC MODELING AND EMOTION CORRELATION FROM CONVERSATIONS
 ### Project By - Sara Khanjani & Shreepriya Dogra, UMBC
+### Project Aadvisor - Dr. Karen Chen, UMBC
 
 ### ABSTRACT
 - Transcripts of Customer Calls can be processed and analyzed using state-of-the-art NLP models to get meaningful insights. 
