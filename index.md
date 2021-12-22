@@ -39,12 +39,15 @@ Interactive Emotional Dyadic Motion Capture (IEMOCAP)
 C. Busso, M. Bulut, C.C. Lee, A. Kazemzadeh, E. Mower, S. Kim, J.N. Chang, S. Lee, and S.S. Narayanan, "IEMOCAP: Interactive emotional dyadic motion capture database," Journal of Language Resources and Evaluation, vol. 42, no. 4, pp. 335-359, December 2008. 
 
 The raw datas features can be seen below.
+
 <img width="799" alt="RawDataset" src="https://user-images.githubusercontent.com/1511050/147159575-b11797f9-0779-4876-8571-ba5f616b99a8.png">
 
 The final dataset features can be seen below.
+
 <img width="788" alt="FinalDataset" src="https://user-images.githubusercontent.com/1511050/147159590-6e6d8441-f7ed-4b6d-87ab-a7071e7eeeb4.png">
 
 Initial dataset has a lot of unnecessary words, which are shown below.
+
 <img width="847" alt="Exploratory Data" src="https://user-images.githubusercontent.com/1511050/147159988-c7441960-99ca-4b98-a0c5-f4318bf463e2.png">
 
 #### DATA PREPROCESSING
@@ -56,6 +59,7 @@ Initial dataset has a lot of unnecessary words, which are shown below.
 3. Tokenization - Breaking down text data into smaller units
 
 Repeat of visualization of top words show that more meaningful words are now showing up.
+
 <img width="787" alt="PreProcesed" src="https://user-images.githubusercontent.com/1511050/147160401-54d135e6-c2a9-4371-92fe-c30139bee789.png">
 
 ### MODEL DEVELOPMENT
@@ -64,6 +68,7 @@ The model has two major parts -
 - Supervised
 
 #### OBJECTIVES - METHODS - MODELS
+
 <img width="839" alt="Screenshot 2021-12-22 at 4 08 35 PM" src="https://user-images.githubusercontent.com/1511050/147160664-23d47ba9-3308-42ef-8834-23d136d41440.png">
 
 #### 1. TOPIC MODELLING
@@ -90,13 +95,11 @@ Sample visualization of the topic words has been presented. A visual inspection 
 
 
 #### 3. EMOTION PREDICTION USING LDA FEATURES
-Tokenization of Text
-Use of Gensim 
-Creation of Bag-of-words, dictionary and corpus
-LDA Features - 144
-INPUT - 144 features 
-OUTPUT - Emotion Label - 0/1 representing Negative/Positive respectively
-Binary Classification using Random Forest
+- In this method we start with the tokenization of text. We have used Gensim (https://radimrehurek.com/gensim/). It is a free Python library for topic modelling. It does the creation of Bag-of-words, Gensim dictionary and corpus. 
+- We obtain 144 LDA Features.
+- INPUT - 144 features 
+- OUTPUT - Emotion Label - 0/1 representing Negative/Positive respectively
+- Next we perform a Binary Classification using Random Forest. Random Forest with different depths will be tried to avoid overfitting.
 
 <img width="789" alt="Screenshot 2021-12-22 at 4 43 15 PM" src="https://user-images.githubusercontent.com/1511050/147163267-2ae6c12d-9b39-43f8-a5e8-0752231b4848.png">
 
