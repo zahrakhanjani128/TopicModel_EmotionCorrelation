@@ -3,24 +3,33 @@
 
 
 
-Abstract (a few sentences describing the project including the motivation and key findings)
-Background/motivation
+### Abstract 
+
+(a few sentences describing the project including the motivation and key findings)
+### Background/motivation
 Why this project is interesting
-Exploratory data analysis 
+
+### Exploratory data analysis 
 A few interesting findings
-Model development 
+
+### Model development 
 describe the pipeline from raw data to processed data to model development
 Flowchart helps
-Result and Insights  
+
+### Result and Insights  
 Present a few results
 Make sure you interpret it correctly 
-Conclusion
+
+### Conclusion
 It should flow naturally from the result
-Future work
+
+### Future work
 What do you think the next should be
-Team reflection (if applicable)
+
+### Team reflection (if applicable)
 What you learned from this project, what lesson learned, what could be improved etc.
-Reference (if any)
+
+### Reference (if any)
 Paper, tools, external help resources
 
 
