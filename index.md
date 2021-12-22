@@ -58,8 +58,13 @@ Repeat of visualization of top words show that more meaningful words are now sho
 <img width="787" alt="PreProcesed" src="https://user-images.githubusercontent.com/1511050/147160401-54d135e6-c2a9-4371-92fe-c30139bee789.png">
 
 ### MODEL DEVELOPMENT
-describe the pipeline from raw data to processed data to model development
-Flowchart helps
+The model has two major parts
+- Unsupervised 
+- Supervised
+
+#### OBJECTIVES - METHODS - MODELS
+<img width="839" alt="Screenshot 2021-12-22 at 4 08 35 PM" src="https://user-images.githubusercontent.com/1511050/147160664-23d47ba9-3308-42ef-8834-23d136d41440.png">
+
 
 ### RESULTS & INSIGHTS 
 Present a few results
