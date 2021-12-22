@@ -8,10 +8,28 @@ Sara Khanjani & Shreepriya Dogra
 (a few sentences describing the project including the motivation and key findings)
 
 ### MOTIVATION
-Why this project is interesting
+
+Transcripts of conversations Customer Calls can be processed and analyzed using state-of-the-art NLP models
+
+Key Performance Indicators - 
+Crucial Topics - Areas of Concern 
+Emotions - Satisfaction Level of Customer
+Correlation with other available data - Speakers 
+
 
 ### DATASET & EXPLORATORY DATA ANALYSIS
 A few interesting findings
+
+Conversational
+Emotion Labels
+Open Dataset
+
+Dataset -
+
+Interactive Emotional Dyadic Motion Capture (IEMOCAP)
+C. Busso, M. Bulut, C.C. Lee, A. Kazemzadeh, E. Mower, S. Kim, J.N. Chang, S. Lee, and S.S. Narayanan, "IEMOCAP: Interactive emotional dyadic motion capture database," Journal of Language Resources and Evaluation, vol. 42, no. 4, pp. 335-359, December 2008. 
+
+
 
 ### MODEL DEVELOPMENT
 describe the pipeline from raw data to processed data to model development
