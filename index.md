@@ -43,6 +43,17 @@ The raw datas features can be seen below.
 The final dataset features can be seen below.
 <img width="788" alt="FinalDataset" src="https://user-images.githubusercontent.com/1511050/147159590-6e6d8441-f7ed-4b6d-87ab-a7071e7eeeb4.png">
 
+Initial dataset has a lot of unnecessary words, which are shown below.
+<img width="847" alt="Exploratory Data" src="https://user-images.githubusercontent.com/1511050/147159988-c7441960-99ca-4b98-a0c5-f4318bf463e2.png">
+
+#### DATA PREPROCESSING
+1. Removal of Non-English Conversations
+2. Removal of -
+   - Punctuations
+   - Upper Case Letters 
+   - Stop Words 
+3. Tokenization - Breaking down text data into smaller units
+
 
 ### MODEL DEVELOPMENT
 describe the pipeline from raw data to processed data to model development
