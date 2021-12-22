@@ -1,6 +1,31 @@
 ## TOPIC MODELING AND EMOTION CORRELATION FROM CONVERSATIONS
 ## Sara Khanjani & Shreepriya Dogra
 
+
+
+Abstract (a few sentences describing the project including the motivation and key findings)
+Background/motivation
+Why this project is interesting
+Exploratory data analysis 
+A few interesting findings
+Model development 
+describe the pipeline from raw data to processed data to model development
+Flowchart helps
+Result and Insights  
+Present a few results
+Make sure you interpret it correctly 
+Conclusion
+It should flow naturally from the result
+Future work
+What do you think the next should be
+Team reflection (if applicable)
+What you learned from this project, what lesson learned, what could be improved etc.
+Reference (if any)
+Paper, tools, external help resources
+
+
+
+
 You can use the [editor on GitHub](https://github.com/shreepriyadogra/TopicModel_EmotionCorrelation/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
