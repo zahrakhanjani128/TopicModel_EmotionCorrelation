@@ -79,23 +79,14 @@ Sample visualization of the topic words has been presented. A visual inspection 
 
 #### 2. EMOTION PREDICTION USING TFIDF FEATURES
 
-Feature extraction - TFIDF Vectorizer
-Map words to a corresponding vector of real numbers
-Number of features extracted - 3218
-Feature Reduction - PCA 
-Linear dimensionality reduction
-Number of final features - 91
-Variance in data - 95%
-INPUT - 91 features 
-
-OUTPUT - Emotion Label - 0/1 representing Negative/Positive respectively
-Binary Classification using Random Forest
-Random Forest with different depths have been tried
-Results for depth = 3 shown
+- In this method feature extraction is done by the TFIDF Vectorizer. This step maps words to a corresponding vector of real numbers. The number of features extracted initially were 3218. 
+- After this feature reduction using Principal Component Analysis (PCA) was done. PCA is a linear dimensionality reduction method. After this step the number of final features were reducced to 91, keeping the variance in data 95%.
+- INPUT - 91 features 
+- OUTPUT - Emotion Label - 0/1 representing Negative/Positive respectively
+- Next we perform a Binary Classification using Random Forest. Random Forest with different depths will be tried to avoid overfitting.
 
 
-<img width="796" alt="Screenshot 2021-12-22 at 4 39 37 PM" src="https://user-images.githubusercontent.com/1511050/147163004-5d4b5006-5150-4296-8cbe-25db35e051ef.png">
-
+<img width="682" alt="Screenshot 2021-12-22 at 4 46 25 PM" src="https://user-images.githubusercontent.com/1511050/147163531-88e04f84-c7f4-4fc9-9be3-2b65336e4309.png">
 
 
 #### 3. EMOTION PREDICTION USING LDA FEATURES
