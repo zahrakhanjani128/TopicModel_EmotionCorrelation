@@ -26,16 +26,17 @@ A small video describing the work is below -
 
 
 ### DATASET & EXPLORATORY DATA ANALYSIS
-A few interesting findings
 
-Conversational
-Emotion Labels
-Open Dataset
+Dataset has been taken from https://sail.usc.edu/iemocap/. 
+It has the following main characterictics - 
+- Conversational
+- Provided with Emotion Labels
+- Open Dataset
 
-Dataset -
-
+Reference - 
 Interactive Emotional Dyadic Motion Capture (IEMOCAP)
 C. Busso, M. Bulut, C.C. Lee, A. Kazemzadeh, E. Mower, S. Kim, J.N. Chang, S. Lee, and S.S. Narayanan, "IEMOCAP: Interactive emotional dyadic motion capture database," Journal of Language Resources and Evaluation, vol. 42, no. 4, pp. 335-359, December 2008. 
+
 
 
 
@@ -48,52 +49,25 @@ Present a few results
 Make sure you interpret it correctly 
 
 ### CONCLUSION
-It should flow naturally from the result
+- Both models do not perform well.
+- Random Forest on TFIDF Features is overfitting.
+- Random Forest on LDA Features give more realistic results, but not the best model.
+- New models need to tried to get an appropriate model for our dataset and problem statement.
+
 
 ### FUTURE WORK
-What do you think the next should be
+- Create/get access to relevant datasets as the current dataset is very small for our analysis.
+- Create profiles and ratings for customer service executives based on duration of call & customer experience. The speakers can be identified as a customer or customer service executive. Customer experience can be judged by the change in emotions and the final emotion at the end of the call. 
+- Analyse duration of calls and experience (change of emotions) of customers to identify if there is a cut-off time after which executives are not able to resolve customer problems.
+- Analyse duration & frequency of calls and link it with the associated topics.
 
 ### TEAM REFLECTION
-What you learned from this project, what lesson learned, what could be improved etc.
+- Finding an appropriate dataset is crucial for the analysis.
+- Conversion of the raw data into a ready to use dataset is a big task.
+- Spend a lot of time on EDA.
+- Try several different models. Real-life data may be noisy and may not give the expected results in one go.
 
-### REFERENCES
-Paper, tools, external help resources
-
-
-
-
-You can use the [editor on GitHub](https://github.com/shreepriyadogra/TopicModel_EmotionCorrelation/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shreepriyadogra/TopicModel_EmotionCorrelation/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### ACKNOWLEDGMENTS
+- We would like to thank Dr. Karen Chen for her constant support, advice and feedback.
+- We would like to thank Dr. Vandana Janeja for the problem statement.
+- We Would like to thank the IEMOCAP team for providing us the dataset.
