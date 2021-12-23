@@ -17,7 +17,7 @@ A small video describing the work is below -
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H7xcnrfm9oU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
+Correction of the video: the classification method on the TFIDF feature is not overfitted, it performs well on the test (unseen) dataset.
 # II. MOTIVATION
 
  - Transcripts of conversations Customer Calls can be processed and analyzed using state-of-the-art NLP models
