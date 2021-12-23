@@ -120,8 +120,8 @@ The results have been divided into two parts.
 
 # VI. CONCLUSION
 - Both models do not perform well.
-- Random Forest on TFIDF Features is overfitting.
-- Random Forest on LDA Features give more realistic results, but not the best model.
+- Random Forest on TFIDF Features is fitted well, specially on test data which is not used in any steps of the modeling,but it is not the best model .
+- Random Forest on LDA Features give not-bad metrics.
 - New models need to tried to get an appropriate model for our dataset and problem statement.
 
 
