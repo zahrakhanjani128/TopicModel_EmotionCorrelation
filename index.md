@@ -91,6 +91,9 @@ Sample visualization of the topic words has been presented. A visual inspection 
 - INPUT - 91 features 
 - OUTPUT - Emotion Label - 0/1 representing Negative/Positive respectively
 - Next, we perform a Binary Classification using Random Forest. Random Forest with different depths will be tried to avoid overfitting.
+- %80  training set and %20 test set are splitted 
+- We used validation set (%10 of the training set) for tunning the hyper parameters
+
 
 
 <img width="682" alt="Screenshot 2021-12-22 at 4 46 25 PM" src="https://user-images.githubusercontent.com/1511050/147163531-88e04f84-c7f4-4fc9-9be3-2b65336e4309.png">
@@ -119,9 +122,8 @@ The results have been divided into two parts.
 
 
 # VI. CONCLUSION
-- Both models do not perform well.
-- Random Forest on TFIDF Features is overfitting.
-- Random Forest on LDA Features give more realistic results, but not the best model.
+- Random Forest on TFIDF Features performs well on test data which are not used in any modeling steps.
+- Random Forest on LDA Features give us not bad metrics, but not as much good as on TFIDF features.
 - New models need to tried to get an appropriate model for our dataset and problem statement.
 
 
