@@ -1,5 +1,6 @@
 # TopicModel_EmotionCorrelation
 You can watch a short clip regarding the dataset and all of the steps of this project here: https://youtu.be/H7xcnrfm9oU
+the best performance was achieved using TFID features which you can see here https://github.com/zahrakhanjani128/TopicModel_EmotionCorrelation/blob/gh-pages/EmotionPrediction_using_Tfidf_PCA_Features.ipynb
 
 ## A high-level description of the data source
 
